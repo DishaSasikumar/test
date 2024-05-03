@@ -1,0 +1,52 @@
+body{
+    background-color:hsl(216, 12%, 8%) ;
+    color: white;
+}
+.cont{
+    border: 1px solid hsl(216, 12%, 8%);
+    padding: 30px;
+    margin: 10% 33%;
+    border-radius: 10px;
+   box-shadow: inset;
+    background: linear-gradient(hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+}
+.rate li{
+    list-style-type: none;
+    display: inline-flex;
+   align-items: space-between;
+    justify-content: center;
+   gap: 20px;
+}
+#cir{
+    height: 45px;
+    width: 45px;
+    border: 1px solid hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color:hsl(217, 12%, 63%);
+    color: white;
+    cursor: pointer;
+    gap: 20px;
+}
+#cir:hover{
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+}
+
+#Submit{
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+    border-radius: 15px;
+    width: 100%;
+    padding: 10px;
+}
+#Submit:hover{
+    color: hsl(25, 97%, 53%);
+    background-color:white;
+}
+#select{
+    text-align: center;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 15px;
+    padding: 5px;
+}
